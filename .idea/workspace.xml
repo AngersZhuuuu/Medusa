@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="559e88a8-8c9e-4012-91e5-bed6d55f97a6" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="569" column="29" lean-forward="true" selection-start-line="569" selection-start-column="29" selection-end-line="569" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#15586#15587#0" expanded="true" />
+                <element signature="e#15645#15646#0" expanded="true" />
+                <element signature="e#15852#15853#0" expanded="true" />
+                <element signature="e#15895#15896#0" expanded="true" />
+                <element signature="e#15954#15955#0" expanded="true" />
+                <element signature="e#16004#16005#0" expanded="true" />
+                <element signature="e#16051#16052#0" expanded="true" />
+                <element signature="e#16097#16098#0" expanded="true" />
+                <element signature="class#16326:16537" />
+                <element signature="e#16459#16460#0" expanded="true" />
+                <element signature="e#16518#16519#0" expanded="true" />
+                <element signature="e#18364#18365#0" expanded="true" />
+                <element signature="e#18431#18432#0" expanded="true" />
+                <element signature="class#18742:18899" />
+                <element signature="e#18845#18846#0" expanded="true" />
+                <element signature="e#18888#18889#0" expanded="true" />
+                <element signature="e#18960#18961#0" expanded="true" />
+                <element signature="e#19019#19020#0" expanded="true" />
+                <element signature="e#19255#19256#0" expanded="true" />
+                <element signature="e#19312#19313#0" expanded="true" />
+                <element signature="e#19351#19352#0" expanded="true" />
+                <element signature="e#19401#19402#0" expanded="true" />
+                <element signature="e#19919#19920#0" expanded="true" />
+                <element signature="e#19958#19959#0" expanded="true" />
+                <element signature="e#23807#23808#0" expanded="true" />
+                <element signature="e#23868#23869#0" expanded="true" />
+                <element signature="e#24488#24489#0" expanded="true" />
+                <element signature="e#24521#24522#0" expanded="true" />
+                <element signature="e#34347#34348#0" expanded="true" />
+                <element signature="e#34405#34406#0" expanded="true" />
+                <element signature="e#36288#36289#0" expanded="true" />
+                <element signature="e#36334#36335#0" expanded="true" />
+                <element signature="e#43167#43173#0" expanded="true" />
+                <element signature="e#43230#43236#0" expanded="true" />
+                <element signature="e#70165#70166#0" expanded="true" />
+                <element signature="e#70222#70223#0" expanded="true" />
+                <element signature="e#71153#71154#0" expanded="true" />
+                <element signature="e#71214#71215#0" expanded="true" />
+                <element signature="e#73563#73569#0" expanded="true" />
+                <element signature="e#74073#74081#0" expanded="true" />
+                <element signature="e#77017#77018#0" expanded="true" />
+                <element signature="e#77085#77086#0" expanded="true" />
+                <element signature="e#77138#77139#0" expanded="true" />
+                <element signature="e#77203#77204#0" expanded="true" />
+                <element signature="e#88777#88778#0" expanded="true" />
+                <element signature="e#88835#88836#0" expanded="true" />
+                <element signature="e#88894#88895#0" expanded="true" />
+                <element signature="e#88995#88996#0" expanded="true" />
+                <element signature="e#90179#90180#0" expanded="true" />
+                <element signature="e#90256#90257#0" expanded="true" />
+                <element signature="e#91844#91871#0" expanded="true" />
+                <element signature="e#91925#91936#0" expanded="true" />
+                <element signature="e#98386#98417#0" expanded="true" />
+                <element signature="e#105482#105490#0" expanded="true" />
+                <element signature="e#111388#111396#0" expanded="true" />
+                <element signature="e#111466#111479#0" expanded="true" />
+                <element signature="e#120487#120507#0" expanded="true" />
+                <element signature="e#120562#120568#0" expanded="true" />
+                <element signature="e#121766#121777#0" expanded="true" />
+                <element signature="e#136266#136267#0" expanded="true" />
+                <element signature="e#136310#136311#0" expanded="true" />
+                <element signature="e#136351#136352#0" expanded="true" />
+                <element signature="e#136392#136393#0" expanded="true" />
+                <element signature="e#136726#136727#0" expanded="true" />
+                <element signature="e#136789#136790#0" expanded="true" />
+                <element signature="e#137594#137846#0" expanded="true" />
+                <element signature="e#137845#137846#0" expanded="true" />
+                <element signature="e#137907#137922#0" expanded="true" />
+                <element signature="e#138159#138207#0" expanded="true" />
+                <element signature="e#166068#166076#0" expanded="true" />
+                <element signature="e#175916#175924#0" expanded="true" />
+                <element signature="e#189613#189621#0" expanded="true" />
+                <element signature="e#190004#190025#0" expanded="true" />
+                <element signature="e#192172#192180#0" expanded="true" />
+                <element signature="e#192406#192414#0" expanded="true" />
+                <element signature="e#192878#192913#0" expanded="true" />
+                <element signature="e#201610#201621#0" expanded="true" />
+                <element signature="e#211661#211667#0" expanded="true" />
+                <element signature="e#222134#222155#0" expanded="true" />
+                <element signature="e#223861#223882#0" expanded="true" />
+                <element signature="e#226195#226216#0" expanded="true" />
+                <element signature="e#228019#228040#0" expanded="true" />
+                <element signature="e#228135#228156#0" expanded="true" />
+                <element signature="e#230166#230187#0" expanded="true" />
+                <element signature="e#230282#230303#0" expanded="true" />
+                <element signature="e#232148#232169#0" expanded="true" />
+                <element signature="e#232264#232285#0" expanded="true" />
+                <element signature="e#233833#233854#0" expanded="true" />
+                <element signature="e#233949#233970#0" expanded="true" />
+                <element signature="e#253268#253288#0" expanded="true" />
+                <element signature="e#254676#254684#0" expanded="true" />
+                <element signature="e#254910#254918#0" expanded="true" />
+                <element signature="e#258768#258769#0" expanded="true" />
+                <element signature="e#258808#258809#0" expanded="true" />
+                <element signature="e#259300#259334#0" expanded="true" />
+                <element signature="e#262475#262830#0" expanded="true" />
+                <element signature="e#262829#262830#0" expanded="true" />
+                <element signature="e#270073#270706#0" expanded="true" />
+                <element signature="e#270705#270706#0" expanded="true" />
+                <element signature="e#271367#272863#0" expanded="true" />
+                <element signature="e#272862#272863#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/java/org/apache/hadoop/hive/medusa/IMMSHandler.java" />
+        <option value="$PROJECT_DIR$/src/java/org/apache/hadoop/hive/medusa/MedusaMetaStore.java" />
+        <option value="$PROJECT_DIR$/src/java/org/apache/hadoop/hive/medusa/partition/spec/PartitionSpecProxy.java" />
+        <option value="$PROJECT_DIR$/src/java/org/apache/hadoop/medusa/HiveMetaStoreClient.java" />
+        <option value="$PROJECT_DIR$/src/java/org/apache/hadoop/hive/HiveMetaStoreClient.java" />
+        <option value="$PROJECT_DIR$/src/java/org/apache/hadoop/metastore/HiveMetaStoreClient.java" />
+        <option value="$PROJECT_DIR$/src/java/org/apache/hadoop/metastore/HiveMetaStore.java" />
+        <option value="$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/MetaStoreInit.java" />
+        <option value="$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/events/AddIndexEvent.java" />
+        <option value="$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/Warehouse.java" />
+        <option value="$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Medusa" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Medusa" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Medusa" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1191" />
+    <option name="width" value="736" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Medusa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medusa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Medusa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medusa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Medusa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medusa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Medusa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medusa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Medusa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medusa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Medusa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medusa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Medusa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medusa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="hive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Medusa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medusa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="hive" type="462c0819:PsiDirectoryNode" />
+              <item name="metastore" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553002877813" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.apache.hadoop.hive" />
+      <recent name="org.apache.hadoop" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PROJECT\SourceCode\Medusa\src\java\org\apache\hadoop\hive\medusa" />
+      <recent name="D:\PROJECT\SourceCode\Medusa\src" />
+      <recent name="D:\PROJECT\SourceCode\Medusa" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="559e88a8-8c9e-4012-91e5-bed6d55f97a6" name="Default Changelist" comment="" />
+      <created>1552998134131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552998134131</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49840087" visible="true" weight="0.32814237" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64818764" weight="0.3259177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.32814237" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49966866" visible="true" weight="0.15168539" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.2196162" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/model/org/apache/hadoop/hive/metastore/model/MRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/if/hive_metastore.thrift">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/upgrade/derby/README">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/ThriftHiveMetastore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/medusa/MedusaMetaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2424#2425#0" expanded="true" />
+            <element signature="e#2457#2458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/TUGIBasedProcessor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/events/PreReadDatabaseEvent.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/events/LoadPartitionDoneEvent.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/partition/spec/CompositePartitionSpecProxy.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/events/CreateTableEvent.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/IExtrapolatePartStatus.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/LockRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/MetaStoreInitContext.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/events/PreDropIndexEvent.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/medusa/IMMSHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/partition/spec/PartitionSpecProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/HiveMetaException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/MetaStoreUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/hooks/JDOConnectionURLHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/MetaStoreInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/events/AddIndexEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/Warehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14325">
+          <caret line="573" column="1" selection-start-line="573" selection-start-column="1" selection-end-line="573" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#7104#7105#0" expanded="true" />
+            <element signature="e#7173#7174#0" expanded="true" />
+            <element signature="e#11065#11066#0" expanded="true" />
+            <element signature="e#11118#11119#0" expanded="true" />
+            <element signature="e#11169#11170#0" expanded="true" />
+            <element signature="e#11224#11225#0" expanded="true" />
+            <element signature="e#15097#15113#0" expanded="true" />
+            <element signature="e#15330#15340#0" expanded="true" />
+            <element signature="e#16366#16382#0" expanded="true" />
+            <element signature="e#16470#16480#0" expanded="true" />
+            <element signature="e#20817#20825#0" expanded="true" />
+            <element signature="e#21235#21243#0" expanded="true" />
+            <element signature="e#21536#21552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="158" column="9" lean-forward="true" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/MetaStoreFilterHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/DefaultMetaStoreFilterHookImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/DeadlineException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="569" column="29" lean-forward="true" selection-start-line="569" selection-start-column="29" selection-end-line="569" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#15586#15587#0" expanded="true" />
+            <element signature="e#15645#15646#0" expanded="true" />
+            <element signature="e#15852#15853#0" expanded="true" />
+            <element signature="e#15895#15896#0" expanded="true" />
+            <element signature="e#15954#15955#0" expanded="true" />
+            <element signature="e#16004#16005#0" expanded="true" />
+            <element signature="e#16051#16052#0" expanded="true" />
+            <element signature="e#16097#16098#0" expanded="true" />
+            <element signature="class#16326:16537" />
+            <element signature="e#16459#16460#0" expanded="true" />
+            <element signature="e#16518#16519#0" expanded="true" />
+            <element signature="e#18364#18365#0" expanded="true" />
+            <element signature="e#18431#18432#0" expanded="true" />
+            <element signature="class#18742:18899" />
+            <element signature="e#18845#18846#0" expanded="true" />
+            <element signature="e#18888#18889#0" expanded="true" />
+            <element signature="e#18960#18961#0" expanded="true" />
+            <element signature="e#19019#19020#0" expanded="true" />
+            <element signature="e#19255#19256#0" expanded="true" />
+            <element signature="e#19312#19313#0" expanded="true" />
+            <element signature="e#19351#19352#0" expanded="true" />
+            <element signature="e#19401#19402#0" expanded="true" />
+            <element signature="e#19919#19920#0" expanded="true" />
+            <element signature="e#19958#19959#0" expanded="true" />
+            <element signature="e#23807#23808#0" expanded="true" />
+            <element signature="e#23868#23869#0" expanded="true" />
+            <element signature="e#24488#24489#0" expanded="true" />
+            <element signature="e#24521#24522#0" expanded="true" />
+            <element signature="e#34347#34348#0" expanded="true" />
+            <element signature="e#34405#34406#0" expanded="true" />
+            <element signature="e#36288#36289#0" expanded="true" />
+            <element signature="e#36334#36335#0" expanded="true" />
+            <element signature="e#43167#43173#0" expanded="true" />
+            <element signature="e#43230#43236#0" expanded="true" />
+            <element signature="e#70165#70166#0" expanded="true" />
+            <element signature="e#70222#70223#0" expanded="true" />
+            <element signature="e#71153#71154#0" expanded="true" />
+            <element signature="e#71214#71215#0" expanded="true" />
+            <element signature="e#73563#73569#0" expanded="true" />
+            <element signature="e#74073#74081#0" expanded="true" />
+            <element signature="e#77017#77018#0" expanded="true" />
+            <element signature="e#77085#77086#0" expanded="true" />
+            <element signature="e#77138#77139#0" expanded="true" />
+            <element signature="e#77203#77204#0" expanded="true" />
+            <element signature="e#88777#88778#0" expanded="true" />
+            <element signature="e#88835#88836#0" expanded="true" />
+            <element signature="e#88894#88895#0" expanded="true" />
+            <element signature="e#88995#88996#0" expanded="true" />
+            <element signature="e#90179#90180#0" expanded="true" />
+            <element signature="e#90256#90257#0" expanded="true" />
+            <element signature="e#91844#91871#0" expanded="true" />
+            <element signature="e#91925#91936#0" expanded="true" />
+            <element signature="e#98386#98417#0" expanded="true" />
+            <element signature="e#105482#105490#0" expanded="true" />
+            <element signature="e#111388#111396#0" expanded="true" />
+            <element signature="e#111466#111479#0" expanded="true" />
+            <element signature="e#120487#120507#0" expanded="true" />
+            <element signature="e#120562#120568#0" expanded="true" />
+            <element signature="e#121766#121777#0" expanded="true" />
+            <element signature="e#136266#136267#0" expanded="true" />
+            <element signature="e#136310#136311#0" expanded="true" />
+            <element signature="e#136351#136352#0" expanded="true" />
+            <element signature="e#136392#136393#0" expanded="true" />
+            <element signature="e#136726#136727#0" expanded="true" />
+            <element signature="e#136789#136790#0" expanded="true" />
+            <element signature="e#137594#137846#0" expanded="true" />
+            <element signature="e#137845#137846#0" expanded="true" />
+            <element signature="e#137907#137922#0" expanded="true" />
+            <element signature="e#138159#138207#0" expanded="true" />
+            <element signature="e#166068#166076#0" expanded="true" />
+            <element signature="e#175916#175924#0" expanded="true" />
+            <element signature="e#189613#189621#0" expanded="true" />
+            <element signature="e#190004#190025#0" expanded="true" />
+            <element signature="e#192172#192180#0" expanded="true" />
+            <element signature="e#192406#192414#0" expanded="true" />
+            <element signature="e#192878#192913#0" expanded="true" />
+            <element signature="e#201610#201621#0" expanded="true" />
+            <element signature="e#211661#211667#0" expanded="true" />
+            <element signature="e#222134#222155#0" expanded="true" />
+            <element signature="e#223861#223882#0" expanded="true" />
+            <element signature="e#226195#226216#0" expanded="true" />
+            <element signature="e#228019#228040#0" expanded="true" />
+            <element signature="e#228135#228156#0" expanded="true" />
+            <element signature="e#230166#230187#0" expanded="true" />
+            <element signature="e#230282#230303#0" expanded="true" />
+            <element signature="e#232148#232169#0" expanded="true" />
+            <element signature="e#232264#232285#0" expanded="true" />
+            <element signature="e#233833#233854#0" expanded="true" />
+            <element signature="e#233949#233970#0" expanded="true" />
+            <element signature="e#253268#253288#0" expanded="true" />
+            <element signature="e#254676#254684#0" expanded="true" />
+            <element signature="e#254910#254918#0" expanded="true" />
+            <element signature="e#258768#258769#0" expanded="true" />
+            <element signature="e#258808#258809#0" expanded="true" />
+            <element signature="e#259300#259334#0" expanded="true" />
+            <element signature="e#262475#262830#0" expanded="true" />
+            <element signature="e#262829#262830#0" expanded="true" />
+            <element signature="e#270073#270706#0" expanded="true" />
+            <element signature="e#270705#270706#0" expanded="true" />
+            <element signature="e#271367#272863#0" expanded="true" />
+            <element signature="e#272862#272863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_191</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Medusa</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3816092" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
